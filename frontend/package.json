@@ -1,0 +1,29 @@
+{
+  "name": "test-admin",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "NODE_ENV=development vite build",
+    "serve": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@rjsf/core": "^5.8.2",
+    "ra-data-simple-rest": "^4.9.2",
+    "ra-input-rich-text": "^4.11.1",
+    "react": "^18.2.0",
+    "react-admin": "^4.9.0",
+    "react-admin-json-view": "^2.0.0",
+    "react-dom": "^18.2.0",
+    "react-jsonschema-form": "^1.8.1",
+    "tiptap-imagresize": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.0"
+  }
+}

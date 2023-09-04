@@ -1,0 +1,36 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint --fix ./",
+    "start:dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "camelcase-keys": "^7.0.1",
+    "change-case": "^4.1.2",
+    "connect-session-knex": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "pg": "^8.7.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
